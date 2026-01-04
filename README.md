@@ -1,18 +1,15 @@
-## Getting Started
+# Crear una base de datos orientada a objetos (BDOO) llamada DBJefeHijo con DB40 con la siguiente información:
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+- Crea las clases Jefe y Hijo con los atributos indicados:
+  - Jefe: nombre, antigüedad en la empresa, edad, hijo (Hijo).
+  - Hijo: nombre y edad.
 
-## Folder Structure
+- Almacena varios objetos.
 
-The workspace contains two folders by default, where:
+- Realizar las siguientes consultas:
+  - Visualizar los jefes que tengan más de 55 años.
+  - Modificar la edad de Miguel incrementando su edad un año más.
+  - Borrar los jefes que llevan más de 6 años en la empresa.
+  - Visualizar todos los jefes que quedan, incluidos sus hijos, que no han sido borrados anteriormente.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+### Nota: Antes de crear la base de datos, elimina cualquier archivo previo con el mismo nombre para empezar desde cero.
